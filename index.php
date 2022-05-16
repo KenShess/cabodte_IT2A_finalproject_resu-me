@@ -271,12 +271,12 @@ foreach($file->profile as $rows) {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-projects">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/Quizlation.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/Quizlation.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Quizlation"><i class="bx bx-plus"></i></a>
+                <a href="Quizlation.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
