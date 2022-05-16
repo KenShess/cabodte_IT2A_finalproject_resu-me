@@ -386,17 +386,17 @@ foreach($file->profile as $rows) {
                 </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
+                  <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                    <p>
+                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                      <?php echo $rows->testimonial1; ?>
+                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="assets/img/testimonials/1sky.jpg" class="testimonial-img" alt="">
+                    <h3>Skyline Malicsi</h3>
+                    <h4>Analyst</h4>
+                  </div>
+                </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
