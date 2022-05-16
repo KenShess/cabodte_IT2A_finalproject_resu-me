@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php  
+$file = simplexml_load_file("files/delosreyes+cabodte_IT2A_resu'me.xml");
+foreach($file->profile as $rows) {
+?>
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>iPortfolio Bootstrap Template - Index</title>
+  <title><?php echo $rows->title; ?></title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,12 +32,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio - v3.7.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -45,14 +44,13 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.php">Alex Smith</a></h1>
+        <img src="assets/img/ProfilePic.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.php"><?php echo $rows->name; ?></a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.snapchat.com/add/yshanelreyes" class="twitter"><i class="bx bxl-snapchat"></i></a>
+          <a href="https://www.facebook.com/psych03path" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/yshanel13/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://vt.tiktok.com/ZSdxDYhGC" class="tiktok"><i class="bx bxl-tiktok"></i></a>
         </div>
       </div>
 
@@ -659,3 +657,7 @@
 </body>
 
 </html>
+
+<?php 
+}
+?>
