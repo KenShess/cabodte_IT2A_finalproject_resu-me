@@ -15,5 +15,6 @@
 				<skill>This shows my expertise in programming and markup language. It measures the percentage of my skills ranging from 0 to 100 percent.</skill>
 					<resume>It is a formal document that a job applicant creates to itemize their qualifications for a position. A resume is usually accompanied by a personalized personal statement in which the applicant expresses interest in a specific job or company and draws attention to the most relevant details on the resume.</resume>
 					<resume1>I am a productive and positive thinker; I never think negatively under any circumstances, which is my best quality. I do not incorporate personal issues into my work and will continue to do so. I am the type of person who can be your friend and your parent simultaneously because I can mentor you down to a better path.</resume1>
+						<project1>I used the C# programming language to create a Windows Forms project. This project is one of my proudest accomplishments because it was the first time I had proposed something like it. It is a game in which the user must guess the singer of the song that is currently playing.</project1>
 	</profile>
 </Profile>
